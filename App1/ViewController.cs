@@ -18,8 +18,11 @@ namespace Phoneword
 
             //buttonCode
             string translatedNumber = "";
+            /*
+            UIButton TranslateButton;
 
-            TranslateButton.TouchUpInside += (object sender, EventArgs e) => {
+            TranslateButton.TouchUpInside += (object sender, EventArgs e) =>
+            {
 
                 // Convert the phone number with text to a number
                 // using PhoneTranslator.cs
@@ -40,7 +43,8 @@ namespace Phoneword
                 }
             };
 
-            CallButton.TouchUpInside += (object sender, EventArgs e) => {
+            CallButton.TouchUpInside += (object sender, EventArgs e) =>
+            {
                 var url = new NSUrl("tel:" + translatedNumber);
 
                 // Use URL handler with tel: prefix to invoke Apple's Phone app,
@@ -52,7 +56,7 @@ namespace Phoneword
                     alert.AddAction(UIAlertAction.Create("Ok", UIAlertActionStyle.Default, null));
                     PresentViewController(alert, true, null);
                 }
-            };
+            };*/
         }
 
         public override void DidReceiveMemoryWarning()
@@ -61,7 +65,7 @@ namespace Phoneword
             // Release any cached data, images, etc that aren't in use.
         }
 
-        partial void UIButton9_TouchUpInside(UIButton sender)
+        void UIButton9_TouchUpInside(UIButton sender)
         {
             throw new NotImplementedException();
         }

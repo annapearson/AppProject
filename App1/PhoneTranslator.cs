@@ -1,7 +1,4 @@
 ﻿using System.Text;
-using System;
-
-using aliasToClass = Phoneword.PhoneTranslator;
 
 namespace Phoneword
 {
